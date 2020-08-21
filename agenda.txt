@@ -1,0 +1,10 @@
+ONLINE STORE AGENDA:
+- Item object
+    - name of product, price, description
+- Customer object
+    - name, potentially CC number, address, shopping cart (list of Items)
+- Store 
+    - holds Items (inventory)
+
+Customers should add/subtract Items to/from shopping cart
+    - if purchased, items are removed from store inventory
